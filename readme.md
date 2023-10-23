@@ -53,6 +53,12 @@ git push origin main
 密码是：28157ba8
 ip地址是：42.192.49.166
 
+登陆方式：终端中输入 **ssh 用户名@ip地址**
+
+或者用远程资源管理器登陆 bio07@42.192.49.166 
+
+------------
+
 目录：就是我们平时说的文件夹
 路径：就是目录的层级位置
 
@@ -107,7 +113,7 @@ ip地址是：42.192.49.166
 >
 > 
 >
-> `cat`: 接文件名，查看文件内容（输出到屏幕）
+> `cat`: 接文件名，查看文件内容（输出到屏幕）；内容超多的需要q退出
 >
 > 
 >
@@ -130,6 +136,122 @@ ip地址是：42.192.49.166
 
 
 如果对linux想知根知底，推荐马哥Linux视频课程(bilibili)
+
+
+
+### d3
+
+服务器上软件的安装
+
+安装miniconda：https://www.umu.cn/course/?groupId=6553356&sKey=95e434bee92b2fed131129e31bf84434#/sessionUrl/https%3A%2F%2Fm.umu.cn%2Fssu_3dfc56492%3FsourceTitle%3D
+
+使用miniconda，查看已安装的软件、安装、卸载
+
+`软件名 --help` 可以查看帮助信息
+
+
+
+### d4
+
+R语言基础
+
+学习《R数据科学》
+
+使用Rstudio：
+
+​	1.用Rproject管理工作目录，R语言只能和**一个**文件夹进行互动
+
+​	设置工作目录：`setwd()`  
+​	查看工作目录：`getwd()`
+
+​	 "wd" 是 "working directory" 的缩写
+
+​	工作目录是当前R环境正在读取或写入文件的文件夹或目录
+
+​	当你尝试打开或保存一个文件时，如果你没有提供文件的完整路径，那么R会默认在当前的工作目录中查找或创建那个文件
+
+
+
+ 2. <- 赋值
+
+    rm(list = ls())#清空所有变量
+
+​	   快捷键`ctrl+l` 清空console
+
+
+
+# 单细胞转录组学习
+
+### 第1部分RNA Seq的基础知识
+
+![image-20231022165812771](https://my-bed.oss-cn-shanghai.aliyuncs.com/img/image-20231022165812771.png)
+
+WGS：全基因组测序
+
+WES：全外显子测序
+
+练习资料：
+
+> https://disk.pku.edu.cn:443/link/AF607A65FC8133894B9767885DEAC400
+>
+> or命令行
+>
+> wget https://www.bioinfo.info/tmp/data/test_R1.fq.gz
+> wget https://www.bioinfo.info/tmp/data/test_R2.fq.gz     
+>
+> wget https://www.bioinfo.info/tmp/data/md5.txt
+
+linux学习https://www.lanqiao.cn/courses/1
+
+
+
+### 第2部分RNA-Seq的mapping
+
+
+
+
+
+### 第3部分RNA-Seq的定量及标准化
+
+
+
+
+
+### 第4部分寻找差异表达基因
+
+
+
+
+
+### 第5部分RNA-Seq的注释分析
+
+
+
+
+
+### 第6部分RNA-Seq的可变剪切分析
+
+
+
+
+
+
+
+### 第7部分多样本RNA-Seq分析
+
+
+
+
+
+### 
+
+
+
+
+
+
+
+
 
 
 
